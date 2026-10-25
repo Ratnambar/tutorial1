@@ -1,0 +1,11 @@
+# virtual environment
+.env/
+venv/
+.venv/
+
+# python
+__pycache__/
+*.pyc
+
+# local database: CI builds a fresh one
+*.sqlite3

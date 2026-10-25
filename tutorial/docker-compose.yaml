@@ -1,0 +1,13 @@
+services:
+  web-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      # - sqlite_data:/app/db.sqlite3
+
+# volues:
+#   sqlite_data:m
