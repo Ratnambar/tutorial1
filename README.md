@@ -1,2 +1,2 @@
-# tutorial1
+# tutorial
 DRF app
